@@ -1,4 +1,5 @@
-import {Box} from "./component/Box.jsx"
+import './App.css'
+import Box from "./component/Box.jsx"
 
 function App(){
     return(
@@ -6,8 +7,7 @@ function App(){
         <h1>Szia ez egy oldal</h1>
         <Box/>
         </>
-    )
-        
+    );
 }
 
-export default App;
+export default App
